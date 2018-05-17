@@ -16,7 +16,6 @@ namespace GolfTracker.Models.RoundData
         public string Notes { get; set; }
 
         public Guid CourseTeeId { get; set; }
-        public Guid UserId { get; set; }
         public Guid SetId { get; set; }
         public Set Set { get; set; }
         public CourseTee CourseTee { get; set; }

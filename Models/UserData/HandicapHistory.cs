@@ -8,7 +8,6 @@ namespace GolfTracker.Models.UserData
         public DateTime Date { get; set; }
         public double Handicap { get; set; }
         public bool BiMonthlyUpdate { get; set; }
-        public Guid UserId { get; set; }
         public ApplicationUser User { get; set; }
     }
 }

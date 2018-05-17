@@ -11,7 +11,6 @@ namespace GolfTracker.Models.CourseData
         public double FrontRating { get; set; }
         public double BackRating { get; set; }
         public double CourseRating => FrontRating + BackRating;
-        public Guid CourseTeeId { get; set; }
         public CourseTee CourseTee { get; set; }
     }
 }

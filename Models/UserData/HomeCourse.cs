@@ -7,7 +7,6 @@ namespace GolfTracker.Models.UserData
     {
         public Guid HomeCourseId { get; set; }
         public Guid CourseId { get; set; }
-        public Guid UserId { get; set; }
         public Course Course { get; set; }
         public ApplicationUser User { get; set; }
     }

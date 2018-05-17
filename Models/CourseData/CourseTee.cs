@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using GolfTracker.Models.RoundData;
 
 namespace GolfTracker.Models.CourseData
 {
@@ -16,5 +17,6 @@ namespace GolfTracker.Models.CourseData
         public Course Course { get; set; }
         public HandicapData HandicapData { get; set; }
         public IEnumerable<Hole> Holes { get; set; }
+        public IEnumerable<Round> Rounds { get; set; }
     }
 }
