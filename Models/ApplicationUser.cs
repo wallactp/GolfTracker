@@ -14,5 +14,6 @@ namespace GolfTracker.Models
         public Guid UserId { get; set; }
         public IEnumerable<Round> Rounds { get; set; }
         public IEnumerable<HandicapHistory> HandicapHistory { get; set; }
+        public IEnumerable<HomeCourse> HomeCourses { get; set; }
     }
 }
