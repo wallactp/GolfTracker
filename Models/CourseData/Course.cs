@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using GolfTracker.Models.Shared;
 
 namespace GolfTracker.Models.CourseData
@@ -9,5 +10,6 @@ namespace GolfTracker.Models.CourseData
         public string Name { get; set; }
         public Guid AddressId { get; set; }
         public Address Address { get; set; }
+        public IEnumerable<CourseTee> CourseTees { get; set; }
     }
 }
